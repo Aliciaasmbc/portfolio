@@ -29,6 +29,14 @@ p {
   line-height: 30px;
 }
 
+nav {
+  border-bottom: 1px solid white;
+}
+
+footer {
+  text-align: center;
+  margin: 20px auto;
+}
 .hero {
   background-color: var(--secondary-color);
   text-align: center;
@@ -89,6 +97,18 @@ p {
 
 .project-description {
   padding: 120px 60px;
+}
+
+.email-link {
+  display: flex;
+  justify-content: center;
+  color: var(--branding-color);
+  font-size: 28px;
+  text-decoration: none;
+}
+
+.email-link:hover {
+  text-decoration: underline;
 }
 
 @media (max-width: 900px) {
