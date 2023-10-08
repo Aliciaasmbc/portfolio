@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta name="description" content="All about Alicia Apreala " />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -28,43 +29,27 @@
     <title>About - Alicia Apreala</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top mb-5">
+    <nav>
       <div class="container">
-        <a class="navbar-brand" href="/index.html" title="homepage"
-          >Alicia Apreala</a
-        >
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" href="/index.html" title="homepage">Home</a>
+        <div class="d-flex justify-content-between">
+          <a href="/"
+            ><img
+              src="images/girl-code.jpg"
+              class="logo d-none d-md-block d-sm-none"
+              alt="Alicia's logo emoji girl with computer"
+          /></a>
+          <ul>
+            <li>
+              <a href="/" title="Homepage">Home</a>
             </li>
-            <li class="nav-item">
-              <a
-                class="nav-link active"
-                aria-current="page"
-                href="/about.html"
-                title="About Alicia Apreala"
-                >About me</a
-              >
+            <li>
+              <a href="/work.html" title="Alicia's work">My work</a>
             </li>
-            <li class="nav-item">
-              <a
-                class="nav-link"
-                href="/about.html"
-                title="Contact Alicia Apreala"
-                >Contact me</a
-              >
+            <li class="active">
+              <a href="/about.html" title=" About Alicia">About me</a>
+            </li>
+            <li>
+              <a href="/contact.html" title="Contact Alicia">Contact</a>
             </li>
           </ul>
         </div>
@@ -82,32 +67,62 @@
               and everything is well explained, homework and deadline are gpod
               to keep focus.
             </p>
-            <a href="" class="btn btn-branding">See my projects</a>
+            <a href="/work.html" class="btn btn-branding">See my projects</a>
           </div>
         </div>
         <div class="col-lg-6">
           <img src="images/Alicia.JPG" class="img-fluid" alt="headshot" />
         </div>
       </div>
-    </div>
+      <footer>
+        <div
+          class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex"
+        >
+          <div>
+            <h3>Work inquiry</h3>
+            <p class="text-muted">Let's work together !</p>
+          </div>
+          <div>
+            <a
+              href="/contact.html"
+              class="btn btn-branding mt-3"
+              title="Contact Alicia"
+            >
+              Contact me</a
+            >
+          </div>
+        </div>
 
-    <div id="contact" class="mt-5">
-      <h2 class="text-center">📮 Contact me</h2>
-      <a href="mailto:alicia.apreala@gmail.com" class="email-link">
-        alicia.apreala@gmail.com
-      </a>
+        <div class="d-flex justify-content-center mb-5">
+          <a
+            href="mailto:alicia.apreala@gmail.com"
+            class="email-link"
+            title="email Alicia"
+            >alicia.apreala@gmail.com</a
+          >
+        </div>
+
+        <div class="social-links d-flex justify-content-center mb-5">
+          <a
+            href="https://github.com/Aliciaasmbc"
+            target="_blank"
+            title="Github profile"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/alicia-apreala-8a26a552/"
+            target="_blank"
+            title="Linkedin"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+        </div>
+        <p class="text-center mt-5 text-muted">
+          This project was coded with 💜 by Alicia Apreala and is
+          <a href="https://github.com/Aliciaasmbc/portfolio" target="_blank"
+            >open-sourced</a
+          >
+        </p>
+      </footer>
     </div>
-    <footer>
-      Coded with 💜 by
-      <a
-        href="https://www.linkedin.com/in/alicia-apreala-8a26a552/"
-        target="_blank"
-        >Alicia Apreala</a
-      >
-      . This project is
-      <a href="https://github.com/Aliciaasmbc/portfolio" target="_blank"
-        >Open-sourced on GitHub</a
-      >
-    </footer>
   </body>
 </html>
