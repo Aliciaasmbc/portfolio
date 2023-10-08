@@ -207,6 +207,12 @@ footer .social-links a:hover {
   text-decoration: underline;
 }
 
+.img-work:hover {
+  filter: contrast(50%);
+  transform: scale(0.9);
+  transition: all 150ms ease-in-out;
+}
+
 @media (max-width: 900px) {
   nav a {
     font-size: 14px;
